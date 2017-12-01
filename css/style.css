@@ -1,0 +1,253 @@
+/*		GLOBAL		*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	background-image: url("http://127.0.0.1/zavrsni_rad/bookStoreOOP/images/layout/brick-wall.png");
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: 0.3em 0 0 0.5em;
+	color: #7A7676;
+}
+img{
+	vertical-align: bottom;
+}
+p{
+	color: #7A7676;
+	margin-bottom: 0;
+}
+a{
+	color: #755145;
+	text-decoration: none;
+}
+a:hover{
+	color: #E21B23;
+	text-decoration: underline;
+}
+.nav>li>a{
+	padding: 10px;
+}
+strong{
+	color: #7F3E2A;
+}
+
+/*============================================================================================*/
+
+
+/*		WRAPPER		*/
+
+
+#wrapper{
+	margin: 15px auto;
+	width: 960px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+
+/*============================================================================================*/
+
+
+/*		HEADER		*/
+
+
+header{
+	padding: 15px;
+}
+.navbar-default{
+	border-radius: 8px;
+	height: 370px;
+	background-image: url('http://127.0.0.1/zavrsni_rad/bookStoreOOP/images/layout/header.jpg');
+}
+.hero{
+	padding-left: 20px;
+	position: absolute;
+	top: 120px;
+	clear: both;
+}
+.links{
+	margin-top: 10px;
+}
+
+/*============================================================================================*/
+
+
+/*		MAIN 		*/
+
+main {
+	width: 600px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+
+/*============================================================================================*/
+
+
+/*		ASIDE 		*/
+
+aside {
+	width: 300px;
+	float: right;
+	padding-bottom: 10px;
+}
+aside h2{
+	padding-bottom: 5px;
+}
+
+
+/*============================================================================================*/
+
+
+/*		TABLE		*/
+table{
+	font-size: 18px;
+}
+.account th{
+	padding: 5px;
+}
+.account td{
+	padding: 5px;
+	color: #7A7676;
+}
+.order th{
+	text-align: center;
+}
+th{
+	padding: 0 5px;
+}
+td{
+	padding: 0 5px;
+}
+
+
+/*===========================================================================================*/
+
+
+/*		FORM		*/
+form[name='edit'] table td{
+	padding-left: 20px;
+}
+form[name='edit'] table input[type='submit']{
+	margin-top: 20px;
+}
+.form div:first-of-type{
+	float: left;
+}
+.form div:last-of-type{
+	float: right;
+}
+
+
+/*===========================================================================================*/
+
+
+/*		BOOKS		*/
+.books{
+	width: 90px;
+	margin: 10px;
+	float: left;
+	color: #7A7676;
+	height: 160px;
+}
+.books img{
+	width: 90px;
+	height: 110px;
+	border-radius: 5px;
+}
+.info{
+	display: none;
+}
+
+
+/*=========================================================================================*/
+
+
+/*		BOOK		*/
+.book{
+	margin-bottom: 50px;
+}
+.book a{
+	font-size: 17px;
+	padding-left: 15px;
+}
+.book_data{
+	float: left;
+	width: 200px;
+	margin: 10px 10px 0 0;
+	padding: 0 10px 10px 10px;
+}
+.book_data:nth-of-type(2){
+	margin: 5px 0 0 0;
+}
+.book_data img{
+	width: 170px;
+	height: 200px;
+	border-radius: 8px;
+	float: left;
+}
+.desc{
+	clear: both;
+	padding: 0 10px;
+}
+#input{
+	margin: 5px 0 0 10px;
+}
+
+
+/*===========================================================================================*/
+
+
+/*		Contact			*/
+
+#map{
+	float: right;
+	height: 400px;
+	width: 500px;
+	margin-right: 20px;
+}
+.contact{
+	float: left;
+	margin-left: 20px;
+}
+
+
+/*===========================================================================================*/
+
+
+/*		Message			*/
+
+.message{
+	margin-left: 20px;
+}
+
+
+/*===========================================================================================*/
+
+
+/*		Category 		*/
+
+#category{
+	padding: 0 0 5px 15px;
+}
+
+
+/*===========================================================================================*/
+
+
+/*		FOOTER		*/
+footer {
+	margin-top: 20px;
+	clear: both;
+}
+
+
+@media screen and (max-width:800px) {
+	
+	.hero{
+		display: none;
+	}
+	
+}
